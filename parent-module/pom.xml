@@ -18,14 +18,13 @@
         <module>delivery/infrastructure</module>
         <module>delivery/application</module>
         <module>delivery-administration</module>
-        <module>delivery-administration/domain2</module>
-        <module>delivery-administration/infrastructure2</module>
-        <module>delivery-administration/application2</module>
+        <module>delivery-administration/domain</module>
+        <module>delivery-administration/infrastructure</module>
+        <module>delivery-administration/application</module>
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-
 </project>

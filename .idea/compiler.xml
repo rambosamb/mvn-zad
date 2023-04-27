@@ -10,14 +10,16 @@
         <module name="bom-module" />
         <module name="application" />
         <module name="delivery-administration" />
-        <module name="infrastructure2" />
         <module name="infrastructure" />
         <module name="common-module" />
         <module name="integration-module" />
         <module name="domain" />
-        <module name="domain2" />
-        <module name="application2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="application2" target="17" />
+      <module name="domain2" target="17" />
+      <module name="infrastructure2" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
