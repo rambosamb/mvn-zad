@@ -9,9 +9,16 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>parent-module</module>
         <module>common-module</module>
         <module>integration-module</module>
+        <module>bom-module</module>
+        <module>delivery</module>
+        <module>delivery/domain</module>
+        <module>delivery/infrastructure</module>
+        <module>delivery-administration</module>
+        <module>delivery-administration/domain</module>
+        <module>delivery-administration/infrastructure</module>
+        <module>delivery-administration/application</module>
     </modules>
 
     <properties>

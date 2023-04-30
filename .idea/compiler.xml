@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="delivery" />
         <module name="bom-module" />
         <module name="application" />
         <module name="delivery-administration" />
-        <module name="infrastructure" />
         <module name="common-module" />
         <module name="integration-module" />
+        <module name="infrastructure" />
         <module name="domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="application2" target="17" />
-      <module name="domain2" target="17" />
-      <module name="infrastructure2" target="17" />
+      <module name="application" target="17" />
+      <module name="domain" target="17" />
+      <module name="infrastructure" target="17" />
+      <module name="XDD" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
